@@ -1,3 +1,22 @@
+#
+# Show changes from local master to remote origin/master:
+#
+# incoming:
+#
+#
+# outgoing:
+#
+# * e4bf5f7 - (HEAD, master) Add bash profile and git commands (2 minutes ago)
+# <Tomas D'Stefano>
+#  .git_completion.sh        | 2663
+#  ----------------------------------------------
+#   b/.bash_profile           |  120 ++
+#   b/bin/git-churn           |   23
+#   b/bin/git-completion.bash | 2663 ++++++++++++++++++++++++++++++++++++++++++++++
+#   b/bin/git-divergence      |   57
+#  5 files changed, 2863 insertions(+), 2663 deletions(-)
+#
+
 set -e
 
 (
@@ -21,7 +40,7 @@ set -e
         rev=$1
         git log -1 $rev --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
         echo
-        git di $rev^..$rev | diffstat
+        git diff $rev^..$rev | diffstat
         echo
     }
 
