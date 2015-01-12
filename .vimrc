@@ -63,6 +63,7 @@ NeoBundleCheck
 " └───────────────────────────────────┘
 
 syntax on
+color railscasts
 
 " ┌─────────────────────────────┐
 " │       Vim Settings          │
