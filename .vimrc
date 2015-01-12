@@ -47,6 +47,7 @@ NeoBundle 'groenewege/vim-less.git'
 NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'tpope/vim-rake.git'
 NeoBundle 'vim-ruby/vim-ruby.git'
+NeoBundle 'rodjek/vim-puppet'
 
 " ┌────────────────────┐
 " │    NeoBundle end   │
