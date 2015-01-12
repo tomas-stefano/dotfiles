@@ -108,6 +108,8 @@ set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 
+set nofoldenable    " disable folding
+
 set textwidth=80
 set colorcolumn=+1
 
