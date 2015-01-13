@@ -117,7 +117,7 @@ custom_prompt () {
   fi
 }
 
-source ~/bin/git-completion.bash
+source ~/.git_completion.sh
 
 PROMPT_COMMAND=custom_prompt
 EDITOR=vim
