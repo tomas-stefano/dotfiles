@@ -1,3 +1,4 @@
+export PATH="~/bin:$PATH"
 # Colours
 export BLUE="\[\033[0;34m\]"
 export NO_COLOR="\[\e[0m\]"
