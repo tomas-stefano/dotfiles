@@ -17,6 +17,13 @@ export GREP_COLOR="4;33"
 export CLICOLOR="auto"
 export GEM_EDITOR="mate"
 
+# Erase duplicates in history
+export HISTCONTROL=erasedups
+# Store 10k history entries
+export HISTSIZE=10000
+# Append to the history file when exiting instead of overwriting it
+shopt -s histappend
+
 alias ls='ls -G'
 
 alias jsonget="curl -X GET -H 'Accept: application/json'"
